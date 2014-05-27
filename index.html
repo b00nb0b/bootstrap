@@ -1013,7 +1013,7 @@ Append the datepicker popup element to <code>body</code>, rather than inserting 
 
     <!-- Single button -->
     <div class="btn-group" dropdown is-open="status.isopen">
-      <button type="button" class="btn btn-primary dropdown-toggle" ng-disabled="disabled">
+      <button type="button" class="btn btn-primary dropdown-toggle" ng-disabled="disabled" ng-click="">
         Button dropdown <span class="caret"></span>
       </button>
       <ul class="dropdown-menu" role="menu">
@@ -1027,8 +1027,8 @@ Append the datepicker popup element to <code>body</code>, rather than inserting 
 
     <!-- Split button -->
     <div class="btn-group" dropdown>
-      <button type="button" class="btn btn-danger">Action</button>
-      <button type="button" class="btn btn-danger dropdown-toggle">
+      <button type="button" class="btn btn-danger" ng-click="">Action</button>
+      <button type="button" class="btn btn-danger dropdown-toggle" ng-click="">
         <span class="caret"></span>
         <span class="sr-only">Split button!</span>
       </button>
@@ -1081,7 +1081,7 @@ There is also the <code>on-toggle(open)</code> optional expression fired when dr
 
     &lt;!-- Single button --&gt;
     &lt;div class=&quot;btn-group&quot; dropdown is-open=&quot;status.isopen&quot;&gt;
-      &lt;button type=&quot;button&quot; class=&quot;btn btn-primary dropdown-toggle&quot; ng-disabled=&quot;disabled&quot;&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-primary dropdown-toggle&quot; ng-disabled=&quot;disabled&quot; ng-click=&quot;&quot;&gt;
         Button dropdown &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
       &lt;/button&gt;
       &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot;&gt;
@@ -1095,8 +1095,8 @@ There is also the <code>on-toggle(open)</code> optional expression fired when dr
 
     &lt;!-- Split button --&gt;
     &lt;div class=&quot;btn-group&quot; dropdown&gt;
-      &lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Action&lt;/button&gt;
-      &lt;button type=&quot;button&quot; class=&quot;btn btn-danger dropdown-toggle&quot;&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot; ng-click=&quot;&quot;&gt;Action&lt;/button&gt;
+      &lt;button type=&quot;button&quot; class=&quot;btn btn-danger dropdown-toggle&quot; ng-click=&quot;&quot;&gt;
         &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;
         &lt;span class=&quot;sr-only&quot;&gt;Split button!&lt;/span&gt;
       &lt;/button&gt;
